@@ -18,7 +18,7 @@
     interval = setInterval(function() {
         var c = cookies.shift();
         console.info(c);
-        // document.cookie = c;
+        document.cookie = c;
         if (cookies.length == 0) clearInterval(interval);
     }, 100);
 })();
