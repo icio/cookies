@@ -8,5 +8,5 @@ browser will complain about. Paste this into your browser's console to run:
     var s = document.createElement('script');
     s.src = src;
     document.body.appendChild(s);
-})('https://cdn.jsdelivr.net/gh/icio/cookies@master/cookies.js')
+})('https://cdn.jsdelivr.net/gh/icio/cookies/cookies.js')
 ```
